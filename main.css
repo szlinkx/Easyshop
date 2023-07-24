@@ -1,0 +1,183 @@
+/* Nav Bar */
+nav {
+    padding: 1%;
+    background-color: #1FE477
+}
+
+nav ul {
+    display: grid;
+    align-content: center;
+    max-height: 40px;
+    width: auto;
+    grid-template-columns: 2fr 6fr 1fr 1fr;
+    padding: 0
+}
+
+nav > ul > li {
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    display: block;
+    line-height: 40px;
+    padding: 5px; 
+    text-align: center;
+    text-decoration: none;
+    color: #FFFBF7;
+}
+
+nav > ul > li > a > img {
+    width: 100%;
+}
+
+img {
+    margin: auto;
+    max-width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+nav > ul > li > a:hover {
+    background-color: #A2E4C0;
+}
+
+/* Search Box */
+#searchbox {
+    width: 96%;
+    height: 40px;
+    background-color: #FFFBF7;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-size: 100%;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#search a {
+    text-decoration: none;
+    color: black;
+}
+
+#search:hover {
+    background-color: #A2E4C0; 
+}
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "item1 item2 item3"
+}
+
+.formSection {
+    border: none;
+}
+
+.column {
+    float: left;
+    width: 15%;
+    line-height: 150%;
+}
+
+.column2 {
+    padding-top: 10px;
+    float: left;
+    width: 70%;
+}
+
+.forminput {
+    width: 100%;
+    line-height: 150%;
+    background-color: #FFFBF7;
+    border-width: 0.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-size: 100%;
+    margin: 2px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #FFFBF7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    padding: 10px;
+    background-color: #C6BEBC;
+}
+
+.confirmcolumn1 {
+    float: left;
+    height: 170px;
+    width: 20%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.confirmcolumn2 {
+    float: left;
+    height: 170px;
+    width: 30%;
+    padding: 10px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+    border-color: black;
+}
+
+.confirmcolumn3 {
+    float: left;
+    height: 170px;
+    width: 15%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 24%;
+}
+
+div.gallery > a > img {
+    max-height: 200px;
+    width: auto;
+    align-content: center;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
